@@ -21,11 +21,13 @@ public class Main {
     }
 
     public static void main(String[] args) {
+        //Инициализируем массив строковых пар в качестве входных данных
         String[][] massiv = new String[][]{{"Book1", "Familia1 Imya1 Otchestvo1"},
                 {"Book2", "Familia2 Imya2 Otchestvo2"},
                 {"Book3", "Familia3 Imya3 Otchestvo3"},
                 {"Book4", "Familia4 Imya4 Otchestvo4"},
                 {"Book5", "Familia5 Imya5 Otchestvo5"}};
+        //Выводим в консоль построчно результат работы метода (по условию задания)
         for (String row : ticketTask10(massiv)){
             System.out.println(row);
         }
